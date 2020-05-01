@@ -1,12 +1,98 @@
-.main-nav li{
-  color: white;
-  margin-left: 20px;
-  font-weight:300;
 
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70) ),  url('../../../../../assets/images/header-background-tools-img.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.main-nav li{
+  margin-left: 40px;
+  font-weight:400;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.main-nav a{
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav a:hover{
+  padding-bottom: 10px;
+  border-bottom: 2px solid #b30000;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 18%;
+  margin-right: 18%;
+  align-self: baseline;
 }
 
 ul{
   display: flex;
   list-style: none;
-  justify-content: center;
+  margin-top: 50px;
+}
+
+img.logo{
+  width: 180px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.hero-text-box{
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+h4{
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+
+  letter-spacing: 2px;
+}
+
+.btn{
+  display: inline-block;
+  font-weight: 500;
+  margin-top: 20px;
+  background-color: #940000;
+  border-radius: 200px;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 15px;
+  letter-spacing:2px;
+  color: white;
+  border: #b30000 1px solid;
+}
+
+.btn-ghost{
+  margin-left: 20px;
+  background: transparent;
+}
+
+.btn-ghost:hover{
+  transition: background-color 0.3s;
+  background-color: #940000;
+}
+.btn-full:hover{
+  transition: background-color 0.3s;
+  background-color: #7a0000;
 }

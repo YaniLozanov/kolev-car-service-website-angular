@@ -1,7 +1,0 @@
-header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70) ),  url('../assets/images/header-background-tools-img.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  background-attachment: fixed;
-}
