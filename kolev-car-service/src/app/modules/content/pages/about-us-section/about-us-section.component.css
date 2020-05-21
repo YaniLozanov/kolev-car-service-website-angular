@@ -1,0 +1,33 @@
+section{
+  min-height: 70vh;
+  background-color: white;
+}
+
+h3{
+  text-align: center;
+}
+
+h3:after{
+  display: block;
+  height: 1px;
+  width: inherit;
+  content: " ";
+  background-color: #d60000;
+  margin:15px auto;
+}
+
+p{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.icon-about-us{
+  font-weight: lighter;
+  font-size: 40px;
+  color: #555555;
+
+}
+
+.col div{
+  text-align: center;
+}

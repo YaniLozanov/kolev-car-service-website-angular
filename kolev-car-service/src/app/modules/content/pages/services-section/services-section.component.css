@@ -1,0 +1,104 @@
+section{
+  min-height: 70vh;
+  background-color: #f4f4f4;
+}
+
+h2{
+  margin-bottom: 70px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.col div{
+  text-align: center;
+}
+
+.row:first-child{
+  margin-bottom: 80px;
+}
+
+
+
+
+/*--------ICONS--------*/
+
+.icon-services{
+  font-size: 30px;
+}
+
+.icon-snow{
+  color: #3e86fb;
+}
+
+.icon-settings{
+  color: black;
+}
+
+.icon-chart{
+  color: #00bb17;
+}
+
+.icon-hammer{
+  color: blueviolet;
+}
+
+.icon-desktop{
+  color: #b30000;
+}
+
+.icon-reload{
+  color: orangered;
+}
+
+.icon-color-fill{
+  color: #555555;
+}
+
+.icon-flash{
+  color: #b8b800;
+}
+
+
+/*--------UNDERLINES--------*/
+
+h4:after{
+  display: block;
+  height: 1px;
+  content: " ";
+  width: inherit;
+  margin: 15px auto 0 auto;
+}
+
+h4.blue-line:after{
+  background-color: #3e86fb;
+}
+h4.black-line:after{
+  background-color: #555555;
+}
+
+h4.green-line:after {
+  background-color: #00bb17;
+}
+
+
+h4.violet-line:after {
+  background-color: blueviolet;
+}
+
+h4.red-line:after {
+  background-color: #b30000;
+}
+
+h4.orange-line:after {
+  background-color: orangered;
+}
+
+
+h4.yellow-line:after {
+  background-color: #b8b800;
+}
+

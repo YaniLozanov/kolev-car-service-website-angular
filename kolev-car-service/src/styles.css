@@ -14,3 +14,23 @@ body{
 .row{
   max-width: 1140px;
 }
+
+section{
+  padding: 60px;
+}
+
+h2{
+  font-weight: 500;
+  color: #555555;
+  font-size: 40px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+h2:after{
+  display: block;
+  height: 2px;
+  width: 130px;
+  content: " ";
+  background-color: #d60000;
+  margin:15px auto;
+}
